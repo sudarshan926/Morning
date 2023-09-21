@@ -1,0 +1,41 @@
+package com.thiskeyWord;
+
+/*This keyword used to main purpose of eliminate the confusion between class Attributes and 
+  parameter with the same name.
+  1)this keyword is used to refer the current class instance variables
+  2)this keyword is used invoke the current class method
+  3)this keyword is used to invoke the  current class constructor
+  4) this() is used to pass the argument in method call
+  5) this () keyword is used to pass the arguments in constructor call
+*/
+ class ThisKeyword {
+	// confused jvm which variables local or instance.
+	String name;
+	int age;
+	String city;
+	
+	ThisKeyword() {
+		System.out.println("Hellow Constructor");
+	}
+	
+	ThisKeyword(int a) {
+		this();
+		System.out.println(a);
+	}
+
+	ThisKeyword( String name ,int age, String city)
+	 {
+		//this(10);
+		
+		 name=name;
+		age=age;
+		city=city;
+		 System.out.println(name+" "+age+" "+city);
+		
+	 }
+	public static void main(String[] args) {
+		ThisKeyword t = new ThisKeyword("akash",34,"Latur");
+
+	}
+
+}

@@ -1,0 +1,29 @@
+package arays__;
+
+import java.io.PrintStream;
+
+public class A {
+	final int a = 10; // instance a var
+	public static  final  int b=10;
+	static int c=10;
+	static  final  int d=10;
+	int n=45;
+	 static void x() {
+		 final int a=27+134; //local a var
+		 int s=10;// non static
+		//static final int m=10; // static 
+		// we can not create static variables inside the method because stat variable scope class level only
+		System.out.println("public static  final  int b :"+b);
+		System.out.println("static int c :"+c);
+		System.out.println("static  final  int d :"+(d+13)); // we can not change original var 
+		//System.out.println("static  final  int d :"+(d=d+13));
+		System.out.println("Local a var :"+a);
+		A A=new A();
+		System.out.println(A.n);// access instance var in method 
+	}
+	public static void main(String[] args) {
+		x();
+		A.c=77;
+		System.out.println(c);
+	}
+}

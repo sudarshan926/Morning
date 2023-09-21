@@ -1,0 +1,19 @@
+package methods.java;
+
+public class Ternary {
+    // Ternary Operator
+	public static void main(String[] args) {
+	
+		public static final int  a=10;
+		static final  public int b=10;
+		static final private int c=10;
+		int a=10;
+		int b=20;
+		
+		int c=(a>b)?(a++):(--b);
+		
+		System.out.println("Changeble value of --b is :"+c);
+
+	}
+
+}

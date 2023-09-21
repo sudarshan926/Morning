@@ -1,0 +1,31 @@
+package com.logic.in;
+
+public class ReverseString {
+
+	public static void main(String[] args) {
+		String s= "Fusion"+"hjkghjghj"+"ertyuikl";
+		String reverse="su ";
+		System.out.println("Original String :"+s);
+		for(int i=s.length()-1;i>=0;i--) {
+			reverse=reverse+s.charAt(i);
+		}
+		System.out.println("Reverse String  way1:"+reverse);
+		
+//		// 2nd way not 
+//		StringBuffer sb=new StringBuffer(s);
+//		System.out.println("Reverse String way2 :"+sb.reverse());
+//		String s1="Suraj";
+//		String s2="Suraj";
+//		String s3="Suraj";
+//	//	System.out.println(instanceof);
+		
+		String s1="This is java Session";
+		String a[]=s1.split(" ");
+		for(int i=a.length-1;i>=0;i--) {
+			
+			System.out.print(a[i]+" ");
+		}
+		
+	}
+
+}

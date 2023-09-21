@@ -1,0 +1,16 @@
+package com.whileloopLogic;
+
+public class ASCII_VALUE {
+
+	public static void main(String[] args) {
+		char c='A';
+		
+		while(c<=100)
+		{
+			System.out.print(c+" ");
+			c++;
+		}
+
+	}
+
+}

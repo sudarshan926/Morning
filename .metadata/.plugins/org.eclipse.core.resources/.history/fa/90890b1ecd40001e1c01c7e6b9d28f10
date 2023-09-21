@@ -1,0 +1,21 @@
+package com.simpleArray.in;
+
+public class DuplicteArray {
+
+	public static void main(String[] args) {
+		
+		int d[]= {1,2,2,3,4,5,6,6,8,9,1,5};
+		System.out.println("Original Array :");
+		for(int i=0;i<d.length;i++) {
+			System.out.print(d[i]+" ");
+		}
+			
+		System.out.println("\nPrint Duplicate number in Array :");
+		for(int i=0;i<d.length;i++) {
+			for(int j=i+1;j<d.length;j++) {
+				if(d[i]==d[j])
+					System.out.print(d[i]+",");
+			}
+		}
+	}
+}

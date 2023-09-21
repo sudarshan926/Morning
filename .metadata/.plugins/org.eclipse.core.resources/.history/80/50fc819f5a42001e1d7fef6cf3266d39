@@ -1,0 +1,22 @@
+package com.fusion.in;
+
+public class Split {
+
+	public static void main(String[] args) {
+	String s1="Well Come To Fusion Institute Kharadi, Pune ";
+	
+	String[] str=s1.split("t"); // splitn from letter t
+	
+	for(String a:str) {
+		System.out.println(a);
+		
+	}
+	System.out.println("After again split :");
+	for(String a:str) {
+		System.out.println(a);
+		
+	}
+
+	}
+
+}

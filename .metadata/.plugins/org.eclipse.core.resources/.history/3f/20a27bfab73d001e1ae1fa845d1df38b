@@ -1,0 +1,23 @@
+package com.defaults.interfaces;
+class Child implements P1{
+
+	@Override
+	public String  m1() {
+		
+		//P1.super.m1();// Default methods override, used super keyword because solve the diamond problem
+		//P2.super.m1();// 
+		return "0";
+	}
+	
+}
+public class Test {
+
+	public static void main(String[] args) {
+		//System.out.println("Using Defult Methods: ");
+		Child c=new Child();
+		String result=c.m1();
+		System.out.println();
+
+	}
+
+}

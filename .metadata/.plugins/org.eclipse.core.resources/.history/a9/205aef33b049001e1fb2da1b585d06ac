@@ -1,0 +1,33 @@
+package com.ArrayList.in;
+
+import java.util.ArrayList;
+
+public class ArrayList3 {
+
+	public static void main(String[] args) {
+		ArrayList<String> list=new ArrayList();
+		list.add("Nanded");
+		list.add("Latur");
+		list.add("Pune");
+		list.add("NAshik");
+		list.add("Nagpur");
+		list.add("Mumbai");
+		System.out.println(list);
+		list.add(0, "India");
+		System.out.println(list);
+		boolean list1=list.contains("Pune"); //check present or not if present return true otherwise return false
+		System.out.println(list1);
+		System.out.println(list.get(1));// return 1 position element
+		System.out.println(list.set(2, "Hyderabad"));
+		System.out.println(list);
+
+	
+
+	}
+
+	private static boolean contains(String string) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

@@ -1,0 +1,37 @@
+package com.Book.in;
+
+import java.util.Scanner;
+
+public class BookDeatils {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		Scanner sc1=new Scanner(System.in);
+		Book b=new Book();
+		System.out.println("Following Book details shown below");
+		System.out.println("Book Number :");
+		int bookNo=sc1.nextInt();
+		System.out.println("title :");
+		String title=sc.nextLine();
+		System.out.println("Author :");
+		String author=sc.nextLine();
+		System.out.println("Price :");
+		float price=sc1.nextFloat();
+		System.out.println();
+		
+		b.setAuthor(author);
+		b.setBookNo(bookNo);
+		b.setPrice(price);
+		b.setTitle(title);
+		
+		System.out.println(b.getAuthor());
+		System.out.println(b.getBookNo());
+		System.out.println(b.getPrice());
+		System.out.println(b.getTitle());
+		sc.nextLine();
+		sc.next();
+		sc.close();
+
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;StringMethods.java&apos; to &apos;StringConcept1/src/com.fusion.in&apos;&#x0D;&#x0A;- Original project: &apos;StringConcept1&apos;&#x0D;&#x0A;- Destination element: &apos;StringConcept1/src/com.fusion.in&apos;&#x0D;&#x0A;- Original element: &apos;StringMethods.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;com.fusion.in" element1="/src&lt;{StringMethods.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1692771017978" units="1" version="1.0"/>
+</session>

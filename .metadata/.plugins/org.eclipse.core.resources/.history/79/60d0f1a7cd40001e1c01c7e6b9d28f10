@@ -1,0 +1,31 @@
+package com.simpleArray.in;
+
+import java.util.Arrays;
+
+public class AscendingOrder {
+
+	public static void main(String[] args) {
+		int count=0;
+		int num[]= {2,33,56,76,88,98,3,0,1,32,45,55};
+		
+		Arrays.sort(num);
+		for(int c:num) {
+			System.out.print(c+" ");
+		}
+		System.out.println();
+		
+//		for(int m=0;m<num.length;m++) {
+//			for(int n=m+1;n<num.length;n++) {
+//				if(num[m]>num[n]) {
+//					count=num[m];
+//					num[m]=num[n];
+//					num[n]=count;
+//					System.out.print(count+" ");
+//				}	
+//				
+//			}
+//		}
+	
+	}
+
+}

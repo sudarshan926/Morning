@@ -1,0 +1,41 @@
+package com.fusion.in;
+
+public class StringMethods1 {
+
+	public static void main(String[] args) {
+		String s1="Ashvini";
+		String s2="Vaishnavi";
+		String s3="Ashvini";
+		String s4="    Fusion    ";
+		
+		// 1 )Concat
+		System.out.println(s1.concat(s2)); //AshviniVaushnavi
+		// 2 toUpperCase
+		System.out.println("Upper :"+s1.toUpperCase());// ASHVINI
+		// 3 toLowerCase
+		System.out.println("Lower :"+s1.toLowerCase()); //ashvini
+		//4 .equal
+		System.out.println("Equals Method :"+s1.equals(s2)); //false
+		System.out.println("Equals Method :"+s1.equals(s3)); // true
+		System.out.println( s1==s3);
+		
+		//5 equalegnoreCase
+		System.out.println("equalsIgnoreCase :"+s1.equalsIgnoreCase(s2)); //false
+		//replace
+		System.out.println("replace :"+s1.replace('v','A'));
+		//6 charAt
+		System.out.println("CharAt :"+s1.charAt(5));
+		//7 
+		System.out.println("IndexOf :"+s1.indexOf('i'));
+		//8 trim
+		System.out.println(s4);
+		System.out.println("Trim :"+s4.trim());
+		String str="India Is My Country";
+		
+		System.out.println(str.substring(1, 1));
+		
+		
+
+	}
+
+}

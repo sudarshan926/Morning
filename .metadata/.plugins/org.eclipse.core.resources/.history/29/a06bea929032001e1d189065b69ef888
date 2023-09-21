@@ -1,0 +1,9 @@
+package com.access_modifier;
+
+public class B extends Parent{
+	public void child ()
+	{
+		System.out.println("child");
+	}
+
+}

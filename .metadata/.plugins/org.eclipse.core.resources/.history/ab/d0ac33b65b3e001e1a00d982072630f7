@@ -1,0 +1,42 @@
+package com.encapsulation.in;
+
+import java.util.Scanner;
+
+class Test{
+	
+	private int a;
+	private String Uname="Suraj";
+	private int pass=4356;
+	
+	 public int getA() {
+		 return this.a;
+	 }
+	 public void setA(int a) {
+		 if(Uname=="Suraj" && pass==4356 )
+		 {
+			 System.out.println("U Password and Username are Correct....!");
+			 this.a=a;
+		 }
+		 
+		 else {
+			 System.out.println("Invalid pass and Uname");
+		 } 
+	 }	
+}
+public class CheckPassAndUser  extends Test{
+	
+	public static void main(String[] args) {
+		CheckPassAndUser c=new CheckPassAndUser ();
+		Scanner sc=new Scanner(System.in);
+		System.out.println("User Uname:");
+		int uname =sc.nextInt();
+		System.out.println("User password :");
+		int pass =sc.nextInt();
+		
+		c.setA(44);
+		System.out.println("Value of a:"+c.getA());
+		}
+
+	}
+
+

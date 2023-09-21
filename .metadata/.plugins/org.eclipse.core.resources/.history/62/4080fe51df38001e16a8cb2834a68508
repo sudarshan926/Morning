@@ -1,0 +1,26 @@
+package com.constructor.in;
+
+public class Test3 {
+	
+	Test3(){
+		this(10);
+		System.out.println("This is Constructor class");
+	}
+	Test3(int a){
+		this(10,"Suraj");
+		System.out.println("This Parametrized Constructor");
+	}
+	Test3(int i,String b){
+		
+		System.out.println("This is Parameterized class: "+i);
+	}
+	
+
+	
+	public static void main(String[] args) {
+		Test3 t1=new Test3();
+		
+		
+	}
+
+}

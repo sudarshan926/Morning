@@ -1,0 +1,20 @@
+package com.constructor.in;
+
+public class Test3 {
+	
+	Test3(){
+		this(10);
+		System.out.println("This is Default Const class");
+	}
+	Test3(int a){
+		this(10,"Suraj");
+		System.out.println("This 1 Parametrized Con: "+a);
+	}
+	Test3(int i,String b){
+		System.out.println("This 2 Parametrized Con: ");
+		System.out.println(i+" "+b);
+	}
+	public static void main(String[] args) {
+		Test3 t1=new Test3();	
+	}
+}

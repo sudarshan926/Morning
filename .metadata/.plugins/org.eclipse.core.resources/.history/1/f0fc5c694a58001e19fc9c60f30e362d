@@ -1,0 +1,23 @@
+package com.java8.in;
+
+public class ShallowAndDeepCopy {
+	int i;
+	int j;
+	
+	@Override
+	public String toString() {
+		return "ShallowAndDeepCopy [i=" + i + ", j=" + j + "]";
+	}
+
+	public static void main(String[] args) {
+		ShallowAndDeepCopy s=new ShallowAndDeepCopy();
+		s.i=10;
+		s.j=20;
+		System.out.println(s);
+		ShallowAndDeepCopy s1=new ShallowAndDeepCopy();
+		s1=s;
+		System.out.println(s1);
+
+	}
+
+}

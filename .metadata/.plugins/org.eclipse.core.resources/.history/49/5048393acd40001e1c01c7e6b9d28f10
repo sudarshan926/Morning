@@ -1,0 +1,23 @@
+package com.simpleArray.in;
+
+public class AscendingOrder {
+
+	public static void main(String[] args) {
+		int count=0;
+		int num[]= {2,33,56,76,88,98,3,0,1,32,45,55};
+		
+		for(int m=0;m<num.length;m++) {
+			for(int n=m+1;n<num.length-1;n++) {
+				if(num[m]>num[n]) {
+					count=num[m];
+					num[m]=num[n];
+					num[n]=count;
+					System.out.print(count+" ");
+				}	
+				
+			}
+		}
+	
+	}
+
+}

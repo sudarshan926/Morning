@@ -1,0 +1,22 @@
+package com.Covariant.in;
+class Abhay{
+	public static Object add() {
+		System.out.println("Abhay-class");
+		return new Abhi();
+	}
+}
+class Abhi extends Abhay{
+	
+	public static String add() {// We can not use primitive return type
+		System.out.println("Abhi-class");
+		return "King";	
+	}
+}
+public class Covariant {
+
+	public static void main(String[] args) {
+		System.out.println("Covariant Return Type:");
+		Abhay.add();
+		Abhi.add();
+	}
+}

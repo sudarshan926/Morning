@@ -1,0 +1,18 @@
+package com.java8.in;
+
+interface M{
+	public void sub(int a);
+}
+public class LambdaExpression {
+
+	public static void main(String[] args) {
+		LambdaExpression c=new LambdaExpression();
+		  M a = (t) -> { System.out.println("sub :"+);
+		  
+		 };
+		 a.sub(23);
+		
+
+	}
+
+}

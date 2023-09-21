@@ -1,0 +1,23 @@
+package com.encapsulation.in;
+
+
+class A{
+	private int a;
+	
+	public int getA() {
+		
+		return this.a;
+	}
+}
+
+class B{
+	
+}
+public class Encapsulation {
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

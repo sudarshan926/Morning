@@ -1,0 +1,28 @@
+package com.java8.in;
+
+interface A{
+	default void add() {
+		System.out.println("Class A Add");
+	}
+}
+interface B{
+	default void add() {
+		System.out.println("Class B Add");
+	}
+}
+public class Demo implements A,B {
+	public void sub() {
+		System.out.println("Class Sub" );
+	}
+	@Override
+	public void add() {
+		B.super.add();
+		A.super.add();
+	}
+
+	public static void main(String[] args) {
+		Demo d=new Demo();
+		d.add();
+	}
+	
+}

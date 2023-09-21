@@ -1,0 +1,23 @@
+package com.java8.in;
+
+interface C{
+	static void add() {
+		System.out.println("Addition :Class c");
+	}
+}
+interface D{
+	static void add() {
+		System.out.println("Addition : class D");
+	}	
+}
+public class StaticMethods implements C,D {
+	static void add() {
+		StaticMethods.add();
+	}	
+	
+	public static void main(String[] args) {
+		
+		StaticMethods.add();
+	}
+
+}

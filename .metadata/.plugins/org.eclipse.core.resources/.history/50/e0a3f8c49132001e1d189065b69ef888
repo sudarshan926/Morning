@@ -1,0 +1,11 @@
+package com.access_modifier;
+
+public class Parent 
+{
+	public void parentprop()
+	{
+		System.out.println("parent property");
+		
+	}
+
+}

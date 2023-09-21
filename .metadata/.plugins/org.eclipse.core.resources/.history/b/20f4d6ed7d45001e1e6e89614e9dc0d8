@@ -1,0 +1,19 @@
+package com.exception.in;
+
+import java.util.Scanner;
+
+public class NullPointerException {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int a;
+		try {
+			a=Integer.parseInt(null);
+			// parse int method used for converting string to int
+		}catch(Exception e) {
+			System.out.println(e);
+		}
+
+	}
+
+}

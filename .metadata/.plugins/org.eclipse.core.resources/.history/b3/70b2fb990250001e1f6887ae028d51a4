@@ -1,0 +1,12 @@
+package com.thread.in;
+
+public class MyThread {
+
+	public static void main(String[] args) {
+		
+		System.out.println("My thread Class");
+		try{Thread.sleep(1000);}catch(Exception e) {};
+
+	}
+
+}

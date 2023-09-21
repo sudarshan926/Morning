@@ -1,0 +1,18 @@
+package com.exception.in;
+
+import java.util.Scanner;
+
+public class NullPointerException {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int a;
+		try {
+			a=Integer.parseInt(null);
+		}catch(Exception e) {
+			System.out.println(e);
+		}
+
+	}
+
+}

@@ -1,0 +1,24 @@
+package com.fusion.in;
+
+public class StringMethods {
+
+	public static void main(String[] args) {
+		
+		String s="Suraj";
+				s="sushil";
+		System.out.println(s);
+		
+		
+		String s1="suraj";
+		String s2="Sujit";
+		String s5="suraj";
+		String s3=s1+s2;
+		boolean s4=(s1==s5);
+		boolean s7=s1.equals(s5);
+		System.out.println(s3);
+		System.out.println(s4);
+		System.out.println(s5);
+		System.out.println(s7);
+	}
+
+}

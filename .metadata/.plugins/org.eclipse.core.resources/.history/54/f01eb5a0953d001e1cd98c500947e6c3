@@ -1,0 +1,25 @@
+package com.Covariant.in;
+
+class A{
+	public static Object display() {
+		return null;
+		
+	}
+	
+} 
+class B extends A{
+	public static String display()
+	{
+		return null;
+		
+		
+	}
+}
+
+public class Covarient {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

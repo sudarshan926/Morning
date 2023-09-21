@@ -1,0 +1,10 @@
+package com.access_modifier;
+
+public class Child extends Parent{
+	
+	public void childprop()
+	{
+		System.out.println("child");
+	}
+
+}

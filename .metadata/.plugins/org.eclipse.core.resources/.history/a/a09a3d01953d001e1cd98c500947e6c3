@@ -1,0 +1,24 @@
+package com.Covariant.in;
+
+class A{
+	public static Object display() {
+		return null;
+		
+	}
+	
+}
+class B{
+	public static String display()
+	{
+		return "xyz";
+		
+	}
+}
+
+public class Covarient {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

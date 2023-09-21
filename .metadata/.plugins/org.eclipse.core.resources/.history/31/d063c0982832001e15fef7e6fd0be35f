@@ -1,0 +1,18 @@
+package methods.java;
+
+public class Practice {
+	
+	public void mx(int a) {
+		
+	}
+	
+	int mx(String b) {
+		return 55;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Practice p=new Practice();
+	}
+
+}

@@ -1,0 +1,12 @@
+package com.fusion.in;
+
+public class StringMethods {
+
+	public static void main(String[] args) {
+		
+		String s="Suraj";
+				s="sushil";
+		System.out.println(s);
+	}
+
+}
